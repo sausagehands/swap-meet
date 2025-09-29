@@ -35,4 +35,5 @@ Planning & splitting tasks
 
 ## Signatures
 Bianca Caprirolo
+Maya Zakharova
 Date: 9/29/2025
