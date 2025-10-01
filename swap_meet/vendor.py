@@ -48,8 +48,3 @@ class Vendor:
 
         return True
 
-
-
-         
-        
-        
