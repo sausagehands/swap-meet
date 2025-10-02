@@ -42,11 +42,15 @@ class Vendor:
         my_first_item = self.inventory[0]
         other_vendor_item = other_vendor.inventory[0]
 
+        # NOT DRY solution (keep the swapped items at index 0)
         self.inventory.pop(0)
         other_vendor.inventory.pop(0)
 
         self.inventory.insert(0, other_vendor_item)
         other_vendor.inventory.insert(0, my_first_item)
+
+        # DRY solution with using swap_items metod(but it won’t keep the swapped items at index 0)
+        # self.swap_items(other_vendor, my_first_item, other_vendor_item)
 
         return True
     
