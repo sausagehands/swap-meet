@@ -2,7 +2,7 @@ import pytest
 from swap_meet.clothing import Clothing
 from swap_meet.decor import Decor
 from swap_meet.electronics import Electronics
-from test import *
+# from test import *
 
 TEST_CUSTOM_ID = 12345
 
